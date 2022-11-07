@@ -1,12 +1,9 @@
 #include"currentBookUser_Signature.h"
 
-currentBookUser::currentBookUser(user concreteUser, book concreteBook)
+currentBookUser::currentBookUser(user currentUser, book currentBook)
 {
-	if(&concreteUser == nullptr and &concreteBook == nullptr)
-	{
-		cout << "fuck";
-	}
-
+	this->concreteUser = &currentUser;
+	this->concreteBook = &currentBook;
 }
 
 void currentBookUser::setNewBookUser(book currentBook, user currentUser)

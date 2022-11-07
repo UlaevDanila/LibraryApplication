@@ -5,7 +5,7 @@
 class currentBookUser
 {
 public:
-	currentBookUser(user concreteUser, book concreteBook);
+	currentBookUser(user currentUser, book currentBook);
 private:
 	user* concreteUser;
 	book* concreteBook;
